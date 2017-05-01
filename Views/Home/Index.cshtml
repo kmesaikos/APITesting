@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<div id="cache">
+    <select id="SelectCache">
+        <option>true</option>
+        <option>false</option>
+    </select>
+
+</div>
+
+<div id="top">
+    @Html.TextBox("tags", null, new { placeholder = " Search images" })
+    <a id="link" class="box" href="http://www.flickr.com/" target="_blank"><img src="~/share.png" /></a>
+</div>
+
+
+<!-- Bootstrap Core CSS -->
+<link href="~/Content/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="~/Content/Site.css" rel="stylesheet">
+
+<div id="container" class="container">
+    <div id="row" class="row">
+    </div>
+</div>
+
+<div id="myDiv" class="myDiv hidden">
+    <img src="http://www.loadinfo.net/images/preview/89_cycle_sixty_24.gif" class="mySpinner">
+</div>
+
+
+
+
+
+<!-- jQuery Version 1.11.0 -->
+<script src="~/Scripts/jquery-1.7.1.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="~/Scripts/bootstrap.min.js"></script>
+
